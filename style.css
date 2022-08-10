@@ -199,6 +199,14 @@ body{
     align-items: center;
     font-size: 0.75em;
 }
+.userimg .propic{
+    position: relative;
+    min-width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
 .imgtext{
     position: relative;
     display: flex;
@@ -299,11 +307,20 @@ body{
     border-radius: 30px;
     font-size: 1em;
 }
-h5{
+.time{
     position: relative;
     display: flex;
     justify-content: center;
+}
+h5{
+    position: relative;
+    width: 150px;
+    display: flex;
+    justify-content: center;
     opacity: 0.5;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: auto;
+    padding: 7px 7px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    
 }
