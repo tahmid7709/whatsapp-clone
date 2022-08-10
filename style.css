@@ -286,7 +286,24 @@ body{
     font-size: 1.8em;
     color: #51585c;
 }
+.chatbox_input ion-icon:nth-child(1){
+    margin-right: 15px;
+}
 .chatbox_input input{
     position: relative;
     width: 90%;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
+h5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
